@@ -8,10 +8,16 @@ type Link_obj = object
   to_node_id : int
   cost : float
 
+type Node_obj = object
+  node_id : int
+  search_flag : int
+  previous_node_id : int
+
 var link_table = initTable[int, Link_obj]()
+var node_table = initTable[int, Node_obj]()
 
 block:
-  #ネットワーク構造の読み取り 
+  #ネットワークデータの読み取り 
   var f : File = open("network.dat" , FileMode.fmRead)
   defer :
     close(f)
@@ -29,4 +35,6 @@ block:
     var link_obj =  Link_obj(from_node_id: f_node, to_node_id: t_node, cost:c)
     link_table[int(line_counter)] = link_obj
     line_counter = line_counter + 1
-  echo link_table
+
+proc add_node_data(node_id int): int=
+  
