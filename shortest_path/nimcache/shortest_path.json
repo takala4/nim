@@ -1,0 +1,21 @@
+{"compile":[
+["C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\shortest_path.c", "C:\\nim\\nim-0.17.2\\dist\\mingw64\\bin\\gcc.exe -c  -w -mno-ms-bitfields  -IC:\\nim\\nim-0.17.2\\lib -o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\shortest_path.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\shortest_path.c"],
+],
+"link":[
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\shortest_path.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_system.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_os.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_strutils.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_parseutils.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_math.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_algorithm.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_times.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_winlean.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_dynlib.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_ospaths.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_tables.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_hashes.o",
+"C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_streams.o"
+],
+"linkcmd": "C:\\nim\\nim-0.17.2\\dist\\mingw64\\bin\\gcc.exe   -o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\shortest_path.exe  C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\shortest_path.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_system.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_os.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_strutils.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_parseutils.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_math.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_algorithm.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_times.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_winlean.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_dynlib.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_ospaths.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_tables.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_hashes.o C:\\Users\\takala\\Desktop\\nim\\shortest_path\\nimcache\\stdlib_streams.o    "
+}
