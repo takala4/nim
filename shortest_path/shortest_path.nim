@@ -2,6 +2,7 @@ import os
 import times
 import tables
 import strutils, streams
+import nimdata
 
 type Link_obj = object
   from_node_id : int
