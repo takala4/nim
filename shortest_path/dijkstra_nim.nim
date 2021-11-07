@@ -31,7 +31,7 @@ proc input(filename:string): (Table[int, Link], Table[int, Node]) =
 
   var Links = initTable[int, Link]()
   var Nodes = initTable[int, Node]()
-  var line_counter:int = 1
+  var line_counter:int = 0
   var from_node : int
   var to_node : int
   var c : float
@@ -95,6 +95,11 @@ proc run(filepath:string, source:int):Table[int, Node] {.exportpy.} =
   # for i in countup(1,len(NN)):
   #     echo(NN[i].idx, NN[i].spl)
   return NN
+
+proc runwithdata(Links: Table[int, Link], Nodes: Table[int, Node], source:int): Table[int, Node] {.exportpy.} =
+  var NN = dijkstra(Links, Nodes, source)
+  return NN
+
 
 # var filepath = paramStr(1)
 # var (Links, Nodes) = input(filepath)
